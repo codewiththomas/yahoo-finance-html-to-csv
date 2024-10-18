@@ -1,7 +1,13 @@
+# Output files
+output.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Environment
+.venv/
 
 # C extensions
 *.so
