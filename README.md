@@ -18,7 +18,7 @@ mit einem Texteditor in die Datei ./data/table.html speichern.
 
 GIT-Repository klonen. Eine Konsole öffnen und ins Hauptverzeichnis des GIT-Repositories wechseln.
 
-Danach eine virtuelle Python-Umgebung erstellen:
+Danach eine virtuelle Python-Umgebung erstellen (das Beispiel nutzt `venv`, bei anderen Systemen wie `conda` bitte in deren Docu schauen):
 
 ```bash
 py -3.12 -m venv .venv
@@ -36,7 +36,7 @@ Nun die benötigten Python-Bibliotheken installieren:
 pip install -r requirements.txt
 ```
 
-### Daten konertieren
+### Daten konvertieren
 
 Mit einer Konsole ins Verzeichnis `src` wechseln und das Skript `main.py` ausführen:
 
